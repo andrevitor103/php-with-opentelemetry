@@ -1,0 +1,33 @@
+{
+    "name": "andrevitor/test",
+    "autoload": {
+        "psr-4": {
+            "Andrevitor\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andrevitor103",
+            "email": "andrevitor103@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "php-di/php-di": "^7.0",
+        "illuminate/validation": "^10.19",
+        "illuminate/http": "^10.19",
+        "guzzlehttp/guzzle": "^7.0",
+        "monolog/monolog": "^3.4",
+        "open-telemetry/sdk": "^1.0.8",
+        "open-telemetry/opentelemetry-auto-slim": "^1.0.6",
+        "open-telemetry/opentelemetry-logger-monolog": "^1.0.0",
+        "open-telemetry/exporter-zipkin": "^1.0.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
